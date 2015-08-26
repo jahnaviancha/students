@@ -1,6 +1,6 @@
 
 .wrap {
-	background-image: url(../images/Zigzag.png) repeat-x scroll 0 0 ;
+	background-image: url(../images/Zigzag.png);
     margin: 0 auto;
     width: 100%;
     overflow: hidden;
