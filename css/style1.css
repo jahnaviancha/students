@@ -115,7 +115,7 @@ body {
 	background-image: url(../images/logo.png);
 	background-repeat:no-repeat;
 	float:left;
-	margin:25px 0;
+	margin:20px 50px;
 	height:75px;
 	width:80px;
 	display:block;
@@ -123,11 +123,13 @@ body {
 ul {
     list-style-type: none;
     float:right;
-    margin:43px;
+    margin:35px;
+    padding: 15px;
+    font-family: monospace;
 }
 .fontstyle {
 	display: inline;
-	padding:0 10px 0 0;
+	padding:0 25px 0 0;
 }
 .fontstyle a {
 	color:#FFFFFF;
@@ -142,19 +144,75 @@ ul {
 }
 .center {
 	text-align: center;
-	width: 375px;
-	margin: 0 auto;
-	margin-top:135px;
+	width: 484px;
+	margin: 0 402px;
+	margin-top:138px;
 }
 .center h1 {
-	margin:0;
+	margin:20px;
 	font-size: 45px;
 	font-family: Arial;
 	font-weight: 100;
 	color:#FFFFFF;
 }
 .center p {
-	font-size: 20px;
+	font-size: 18px;
 	color:#DCDCDC;
 }
+.center p a {
+	text-decoration: none;
+	color:#4CB9DB;
+}
+.center a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.center a:hover {
+	color:#4CB9DB;
+}
+.footer {
+	background-image: url(../images/footer.jpg);
+	width:100%;
+	height: 120px;
+}
+.left_footer {
+	float:left;
+	color:#6E7C82;
+	margin: 10px 0px 0px 45px;
+	font-size: 18px;
 
+}
+.right_footer {
+	float:right;
+	width:300px;
+	list-style-type: none;
+	margin-top: 16px;
+}
+.twitter {
+	display: inline-block;
+	padding: 0px 49px 0px 0px;
+	font-size: 14px;
+}
+.twitter a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-style: normal;
+	color: #DBDFE1;
+	background-image: url(../images/social-sprite.png);
+	background-repeat:no-repeat;
+	background-position:0px -26px; 
+}
+.rss {
+	display: inline-block;
+	font-size: 14px;
+}
+.rss a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-style: normal;
+	color: #DBDFE1;
+	background-image: url(../images/social-sprite.png);
+	background-repeat:no-repeat;
+	background-position:0px -53px; 
+}
