@@ -1,5 +1,5 @@
 
-.wrap {
+/*.wrap {
 	background-image: url(../images/Zigzag.png) repeat-x scroll 0 0 ;
     margin: 0 auto;
     width: 100%;
@@ -53,9 +53,58 @@ h1 a {
 }
 p {
 	font-size: 18px;
+}*/
+body{
+	font-family: arial, Helvetica, sans-serif;
 }
-a:hover { 
-    background-color: #3b98b2;
+.wrap {
+	background: url(../images/Zigzag.png) repeat-x scroll 0 0 ;
+	overflow: auto;
+}
+.content{
+	width: 1200px;
+	margin: 20px auto 0 auto;
+}
+.wrap .narrow{
+	min-height: 200px;
+	width: 267px;
+	margin-right: 24px;
+	float: left;
+}
+.wrap .wide{
+	min-height: 200px;
+	width: 594px;
+	margin-right: 24px;
+	float: left;
+}
+.wrap .wide h1 a, .wrap .wide h1 a:hover{
+	color: #333;
+    text-decoration: none;
+}
+.wrap .wide a{
+	color: #3b98b2;
+    text-decoration: none;
+}
+.wrap .wide a:hover{
+	text-decoration: underline;
+}
+.wrap h3{
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 400;
+    color: #999;
+    padding: 0;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+.about a:hover, .side a:hover { 
+    color: #3b98b2;
 }
 .author {
 	color: #333;
@@ -91,6 +140,7 @@ article blockquote {
     padding: 0px 0px 0px 1em;
     border-left: 4px solid #ADD3DD;
 }
+
 body {
 	margin:0;
 	padding: 0;
@@ -187,32 +237,38 @@ ul {
 	float:right;
 	width:300px;
 	list-style-type: none;
-	margin-top: 16px;
+	margin-top: 4px;
 }
 .twitter {
 	display: inline-block;
-	padding: 0px 49px 0px 0px;
+	padding: 13px 49px 13px 29px;
 	font-size: 14px;
 }
 .twitter a {
-	text-decoration: none;
-	text-transform: uppercase;
-	font-style: normal;
-	color: #DBDFE1;
-	background-image: url(../images/social-sprite.png);
-	background-repeat:no-repeat;
-	background-position:0px -26px; 
+	
+	background-position:0px -30px;
+	padding-left: 26px 
 }
+
 .rss {
 	display: inline-block;
 	font-size: 14px;
 }
 .rss a {
-	text-decoration: none;
+	background-position:0px -57px; 
+	padding-left: 26px
+}
+.icon a {
+    text-decoration: none;
 	text-transform: uppercase;
 	font-style: normal;
 	color: #DBDFE1;
 	background-image: url(../images/social-sprite.png);
 	background-repeat:no-repeat;
-	background-position:0px -53px; 
+}
+.license {
+	float: left;
+	background-image: url(../images/license.png);
+	width:80px;
+	height: 15px;
 }
